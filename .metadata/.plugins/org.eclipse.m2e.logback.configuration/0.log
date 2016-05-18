@@ -1,0 +1,17 @@
+2016-05-18 15:25:09,308 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning\SeleniumBasicLearning1\pom.xml
+2016-05-18 15:25:11,229 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: selenium_basic_learning:SeleniumBasicLearning1:0.0.1-SNAPSHOT @ E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning\SeleniumBasicLearning1\pom.xml.
+2016-05-18 15:25:12,680 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumBasicLearning1/src/main/java
+2016-05-18 15:25:12,685 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumBasicLearning1/src/test/java
+2016-05-18 15:25:14,231 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2016-05-18 15:25:14,934 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 15:25:14,934 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning\SeleniumBasicLearning1\src\main\resources
+2016-05-18 15:25:14,937 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 15:25:14,937 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning\SeleniumBasicLearning1\src\test\resources
+2016-05-18 15:27:13,894 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 15:27:13,896 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning\SeleniumBasicLearning1\src\main\resources
+2016-05-18 15:27:13,898 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 15:27:13,898 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning\SeleniumBasicLearning1\src\test\resources
+2016-05-18 15:30:40,132 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 15:30:40,132 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning\SeleniumBasicLearning1\src\main\resources
+2016-05-18 15:30:40,133 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 15:30:40,134 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning\SeleniumBasicLearning1\src\test\resources
