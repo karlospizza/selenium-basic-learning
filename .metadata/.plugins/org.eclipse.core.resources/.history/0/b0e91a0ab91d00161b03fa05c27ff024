@@ -18,7 +18,7 @@ public class TestTest
 	//WebDriver driver = new ChromeDriver();
 	private boolean acceptNextAlert = true;
 	
-	//@Test
+	@Test
 	public void Login()
 	{		
 		driver.get("http://google.ru");
@@ -26,7 +26,7 @@ public class TestTest
 		driver.findElement(By.xpath("//*[@id='lst-ib']")).sendKeys("admin");
 	}
 	
-	 @Test
+	 //@Test
 	  public void testUntitled() throws Exception {
 	    // open | /php4dvd/ |		 
 		  driver.get("http://localhost/php4dvd/");
