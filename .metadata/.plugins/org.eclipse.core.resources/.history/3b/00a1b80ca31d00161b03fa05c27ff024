@@ -1,0 +1,54 @@
+package selenium_basic_learning.SeleniumBasicLearning1;
+
+
+import java.util.regex.Pattern;
+import java.util.concurrent.TimeUnit;
+import org.testng.*;
+import org.testng.annotations.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class LoginTest extends ru.st.selenium.pages.TestBase {
+  private boolean acceptNextAlert = true;
+  private StringBuffer verificationErrors = new StringBuffer();
+
+  @Test
+  public void testUntitled() throws Exception {
+    // open | /php4dvd/ | 
+	  webDriver.get(websiteUrl + "/php4dvd/");
+    // type | id=username | admin
+	  webDriver.findElement(By.id("username")).clear();
+	  webDriver.findElement(By.id("username")).sendKeys("admin");
+    // type | name=password | admin
+	  webDriver.findElement(By.name("password")).clear();
+	  webDriver.findElement(By.name("password")).sendKeys("admin");
+    // click | name=submit | 
+	  webDriver.findElement(By.name("submit")).click();
+  }
+
+  private boolean isElementPresent(By by) {
+    try {
+    	webDriver.findElement(by);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
+    }
+  }
+
+  private String closeAlertAndGetItsText() {
+    try {
+      Alert alert = webDriver.switchTo().alert();
+      String alertText = alert.getText();
+      if (acceptNextAlert) {
+        alert.accept();
+      } else {
+        alert.dismiss();
+      }
+      return alertText;
+    } finally {
+      acceptNextAlert = true;
+    }
+  }
+}
+

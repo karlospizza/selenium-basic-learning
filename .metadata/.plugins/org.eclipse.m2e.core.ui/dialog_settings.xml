@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Downloads\GoogleDisc\_Progs\Eclipse\selenium-basic-learning"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -56,13 +57,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="selenium_basic_learning.SeleniumBasicLearning1"/>
+			<item value="ru.st.selenium.selenium_java_training"/>
 		</list>
 		<list key="groupId">
-			<item value="selenium_basic_learning"/>
+			<item value="ru.st.selenium"/>
 		</list>
 		<list key="artifactId">
-			<item value="SeleniumBasicLearning1"/>
+			<item value="selenium_java_training"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

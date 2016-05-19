@@ -1,3 +1,4 @@
 activeuserprofiles=EKO;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=andy
+useridperkey=EKO.Local\=andy;
